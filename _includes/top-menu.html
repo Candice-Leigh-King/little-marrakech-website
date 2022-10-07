@@ -1,5 +1,5 @@
-<section class="padded-mob">
-  <section class="grid border-mob margin-top">
+<section class="padded-mob" id="content-blocks-{{forloop.index0}}">
+  <section class="grid border-mob margin-top" id="{{item.content-block-link}}">
   
     <div class ="col-5_sm-6_xs-12 grid padded"> 
       <div class=" col-12 padded-s border" >
@@ -12,12 +12,15 @@
         <div class =" col-1-middle  uppercase border-right">
           <h5 class="line-spacing padded-top padded-bottom">{{item.day}}</h5>
       </div>
-      <div class =" col-11 grid padded">
+      <div class =" col-11 grid padded-sides">
           <h2 class="centered col-12 uppercase">{{item.heading}}</h2>
           <p class="left col-12 ">{{item.description}}</p>
           <h3 class="right col-12-bottom uppercase">{{item.price}}</h3>
+          <p class=" right margin-top col-12 mob-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
+      <p class=" margin-top col-12 desktop-hide "><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
+      
     </div>
     
   </section>

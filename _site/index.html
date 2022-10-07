@@ -65,14 +65,14 @@
   </head>
 
   <body>
-   <section class="featured-bg padded-mob">
+   <section class="featured-bg">
 
     <header class="grid-center">
       <div class=" col-11 center mob-hide">
         <a href="/" class="logo-home center "> 
           <img src="/images/logo.png" alt="Through the Lyns Logo" /></a>
       </div>
-      <p class=" col-1-middle fixed hamburger-color hamburger padded" style="z-index: 100;"> ☰
+      <p class=" col-1-middle fixed hamburger-color hamburger padded" style="z-index: 100;"> ﹋<br>﹋<br>﹋
       </p>
       <nav class="grid-middle navigation-background-color page-nav mobile-menu banner">
         <p class="cross exit right col-12"> ╳
@@ -80,14 +80,14 @@
         <div class=" textarea-background-color radius-arch banner col-12 grid-middle">
          
           <div class=" col-12 grid-center  ">
-            <a href="/" class="logo center grow col-12-middle exit"> 
+            <a href="/" class="logo center grow col-12-middle margin-bottom exit"> 
               <img src="/images/logo.png" alt="Through the Lyns Logo" />
             </a>
             <div class="editable col-12 padded-sides text-med exit">
-              <p><a class="" href="/#menu">what's on the menu this week?</a></p>
-              <p><a class="" href="/#gallery">how to order?</a></p>
-              <p><a class="" href="/#about">about me</a></p>
-              <p><a class="" href="/#contact">contact</a></p>
+              <a class="" href="/#menu">What's on the menu this week?</a><br><br>
+              <a class="" href="/#about">About me</a><br><br>
+              <a class="" href="/#order">How to order?</a> <br><br>
+              <a class="" href="/#contact">Contact</a>
             </div>
             
            </div>
@@ -96,14 +96,13 @@
     </header>
    
 
-      <!-- <section class="strip padded-top" style="background-image: url('/images/strip.jpg');"></section> -->
-
+    
 
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[0]">
         <span class="cms-editor-button"></span>
-      <section class="grid-right banner light-bg padded" style="background-image: url('/images/chef.jpg');">
-    <div class="col-6_sm-12-bottom light-bg shadow padded ">
+      <section class="grid-right banner light-bg padded " style="background-image: url('/images/chef.jpg');" id="content-blocks-0">
+    <div class="col-6_sm-12-bottom light-bg shadow padded " id="about">
       <h2 class="big-bold  light-bg"> Hi, I'm Shasha</h2>
       <p class="emphasis  light-bg"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     </div>
@@ -111,8 +110,8 @@
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[1]">
         <span class="cms-editor-button"></span>
-      <section class="padded-mob">
-  <section class="grid border-mob margin-top">
+      <section class="padded-mob" id="content-blocks-1">
+  <section class="grid border-mob margin-top" id="menu">
   
     <div class ="col-5_sm-6_xs-12 grid padded"> 
       <div class=" col-12 padded-s border" >
@@ -125,12 +124,15 @@
         <div class =" col-1-middle  uppercase border-right">
           <h5 class="line-spacing padded-top padded-bottom">M<br>o<br>n<br>d<br>a<br>y</h5>
       </div>
-      <div class =" col-11 grid padded">
+      <div class =" col-11 grid padded-sides">
           <h2 class="centered col-12 uppercase">kafta</h2>
           <p class="left col-12 ">The must have Kefta Tagine. Very popular meal for adults and children With meat balls, tomato sauce and eggs. It's time to try the famous Morrocan cooking ;)</p>
           <h3 class="right col-12-bottom uppercase">200 TBH</h3>
+          <p class=" right margin-top col-12 mob-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
+      <p class=" margin-top col-12 desktop-hide "><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
+      
     </div>
     
   </section>
@@ -138,23 +140,31 @@
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[2]">
         <span class="cms-editor-button"></span>
-      <section class="padded-mob">
-  <section class="grid border-mob margin-top">
+      <section class="padded-mob" id="content-blocks-2">
+  <section class="grid border-mob margin-top" id="">
+
+    <div class ="col-5_sm-6_xs-12 grid padded desktop-hide"> 
+      <div class=" col-12 padded-s border" >
+        <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
+      </div>
+    </div>
     
     <div class ="col-7_sm-6_xs-12 grid padded"> 
       <div class=" col-12 grid padded-s border" >
       <div class =" col-11 grid padded">
           <h2 class="centered col-12 uppercase">kafta</h2>
           <p class="left col-12 ">The must have Kefta Tagine. Very popular meal for adults and children With meat balls, tomato sauce and eggs. It's time to try the famous Morrocan cooking ;)</p>
-          <h3 class="right col-12-bottom uppercase">200 TBH</h3>
+          <h3 class="left col-12-bottom uppercase">200 TBH</h3>
+          <p class=" left margin-top mob-hide col-12"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
       <div class =" col-1-middle  uppercase border-left">
         <h5 class="line-spacing padded-top padded-bottom">T<br>u<br>e<br>s<br>d<br>a<br>y</h5>
       </div>
+      <p class=" margin-top col-12 desktop-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
       </div>
     </div>
 
-    <div class ="col-5_sm-6_xs-12 grid padded"> 
+    <div class ="col-5_sm-6_xs-12 grid padded mob-hide-tab-show"> 
       <div class=" col-12 padded-s border" >
         <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
       </div>
@@ -162,6 +172,105 @@
     
   </section>
 </section>
+    
+    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[3]">
+        <span class="cms-editor-button"></span>
+      <section class="padded-mob" id="content-blocks-3">
+  <section class="grid border-mob margin-top" id="menu">
+  
+    <div class ="col-5_sm-6_xs-12 grid padded"> 
+      <div class=" col-12 padded-s border" >
+        <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
+      </div>
+    </div>
+    
+    <div class ="col-7_sm-6_xs-12 grid padded"> 
+      <div class=" col-12 grid padded-s border" >
+        <div class =" col-1-middle  uppercase border-right">
+          <h5 class="line-spacing padded-top padded-bottom">W<br>E<br>D<br>N<br>E<br>S<br>D<br>A<br>Y</h5>
+      </div>
+      <div class =" col-11 grid padded-sides">
+          <h2 class="centered col-12 uppercase">kafta</h2>
+          <p class="left col-12 ">The must have Kefta Tagine. Very popular meal for adults and children With meat balls, tomato sauce and eggs. It's time to try the famous Morrocan cooking ;)</p>
+          <h3 class="right col-12-bottom uppercase">200 TBH</h3>
+          <p class=" right margin-top col-12 mob-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+      <p class=" margin-top col-12 desktop-hide "><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+      
+    </div>
+    
+  </section>
+</section>
+    
+    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[4]">
+        <span class="cms-editor-button"></span>
+      <section class="padded-mob" id="content-blocks-4">
+  <section class="grid border-mob margin-top" id="">
+
+    <div class ="col-5_sm-6_xs-12 grid padded desktop-hide"> 
+      <div class=" col-12 padded-s border" >
+        <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
+      </div>
+    </div>
+    
+    <div class ="col-7_sm-6_xs-12 grid padded"> 
+      <div class=" col-12 grid padded-s border" >
+      <div class =" col-11 grid padded">
+          <h2 class="centered col-12 uppercase">kafta</h2>
+          <p class="left col-12 ">The must have Kefta Tagine. Very popular meal for adults and children With meat balls, tomato sauce and eggs. It's time to try the famous Morrocan cooking ;)</p>
+          <h3 class="left col-12-bottom uppercase">200 TBH</h3>
+          <p class=" left margin-top mob-hide col-12"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+      <div class =" col-1-middle  uppercase border-left">
+        <h5 class="line-spacing padded-top padded-bottom">T<br>H<br>Y<br>R<br>S<br>d<br>a<br>y</h5>
+      </div>
+      <p class=" margin-top col-12 desktop-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+    </div>
+
+    <div class ="col-5_sm-6_xs-12 grid padded mob-hide-tab-show"> 
+      <div class=" col-12 padded-s border" >
+        <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
+      </div>
+    </div>
+    
+  </section>
+</section>
+    
+    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[5]">
+        <span class="cms-editor-button"></span>
+      <section class="padded-mob" id="content-blocks-5">
+  <section class="grid border-mob margin-top" id="menu">
+  
+    <div class ="col-5_sm-6_xs-12 grid padded"> 
+      <div class=" col-12 padded-s border" >
+        <div class =" bg-image" style="background-image: url('/images/food-1.png');"></div>
+      </div>
+    </div>
+    
+    <div class ="col-7_sm-6_xs-12 grid padded"> 
+      <div class=" col-12 grid padded-s border" >
+        <div class =" col-1-middle  uppercase border-right">
+          <h5 class="line-spacing padded-top padded-bottom">F<br>R<br>I<br>D<br>A<br>Y</h5>
+      </div>
+      <div class =" col-11 grid padded-sides">
+          <h2 class="centered col-12 uppercase">kafta</h2>
+          <p class="left col-12 ">The must have Kefta Tagine. Very popular meal for adults and children With meat balls, tomato sauce and eggs. It's time to try the famous Morrocan cooking ;)</p>
+          <h3 class="right col-12-bottom uppercase">200 TBH</h3>
+          <p class=" right margin-top col-12 mob-hide"><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+      <p class=" margin-top col-12 desktop-hide "><a  class="button"  href="https://api.whatsapp.com/send?phone=66981105830">Order on WhatsApp</a></p>
+      </div>
+      
+    </div>
+    
+  </section>
+</section>
+    
+    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[6]">
+        <span class="cms-editor-button"></span>
+      <section class="strip padded-top" style="background-image: url('/images/strip.jpg');"></section>
     
 
     <div class="col-12-middle center built ">

@@ -1,8 +1,9 @@
-BRAND COLORS
+/* BRAND COLORS
 
 #EBEAE5 - light 
 #DACCBD - milky pink
-#A74F28 - burnt orange 
+#A74F28 - burnt orange
+#927E17 - gold  */
 
  /* FONTS  */
  @font-face 
@@ -66,11 +67,15 @@ body
 .padded-s {padding: 10px !important;}
 .padded-top {padding-top: 5%;}
 .padded-bottom {padding-bottom: 5%;}
+.padded-sides {padding: 0% 5% !important;}
+
+.margin-bottom {margin-bottom: 40px;}
+.margin-top {margin-top: 40px;}
 
 .dark-bg      {  background-color: #DACCBD;     }
 .light-bg     {  background-color: #EBEAE5; }
 .white-bg     {  background-color: #fff}
-.featured-bg  {  background: linear-gradient(133deg,#EBEAE5 17%,#DACCBD 95%);    }
+.featured-bg  {  background: linear-gradient(323deg,#EBEAE5 4%,#DACCBD 53%);   }
 
 .banner
   {
@@ -117,7 +122,7 @@ a {color: inherit;
     text-decoration: none;
 }
 
-a:hover {color: #FDFAF0;}
+a:hover {color: #927E17;}
 
 h2:last-child,
 h3:last-child,
@@ -149,7 +154,7 @@ header
   padding-left: 1%;
   padding-right: 1%;
   border-radius: 0%;
-  color: #859F9F;
+  color: #927E17;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 8px;
   cursor: pointer;
@@ -164,18 +169,46 @@ header
   left:600px;
   bottom: 10;
   padding: 30% 10% 10% 10%;
-  z-index: 10;
-  color: #2f3031;
+  z-index: 100;
+  color: #A74F28;
   padding: 1.2rem;
   display: block;
   text-decoration: none;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-family: 'Oranienbaum', serif;
+  background: linear-gradient(114deg,#ddd7b8 -5%, #fff 18%, #ddd7b8 27%, #f4f2e8 68%, #927E17 102%);    
   }
 
+.button
+  {
+  background-color:  #A74F28;    
+  color: #EBEAE5;
+  border: solid 1px #A74F28;
+  padding: .8rem 2rem .6rem;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  }
+
+.button:hover
+  {
+  background-color:  transparent;
+  color: #A74F28;
+  }
 
 .cross 
-  {cursor: pointer;}
+  {
+  cursor: pointer;
+  color: #927E17;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+  }
+
 
 .mobile-menu 
   {display: none;}
@@ -205,10 +238,14 @@ header
 
 .shadow {box-shadow: 0 2px 6px -2px rgb(0 0 0 / 42%), 0 0px 5px -5px rgb(0 0 0 / 20%)}
 
+.desktop-hide {display: none;}
+
 /* Smaller than laptop */
 
 @media(max-width:768px) 
 {
+
+  .desktop-hide {display: contents;}
 
 header {margin-bottom: 0rem !important ;}
 
@@ -233,6 +270,11 @@ background-size: cover;
 background-position: center;
 min-height: 20rem;
 }
+
+.button
+  {
+  padding: .8rem 0.8rem .6rem;
+  }
 
   
 @media(max-width:576px) 
@@ -269,4 +311,13 @@ h5 {font-size: 0.8rem;}
   {
   background-position: left;
   }
-}
+
+.cross { font-size: 1.3rem;}
+
+.button 
+  {
+  padding: 0.8rem 0.5rem 0.6rem;
+  font-size: 0.9rem;
+  }
+  
+.mob-hide-tab-show {display: none;}
