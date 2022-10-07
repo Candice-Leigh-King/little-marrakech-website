@@ -83,6 +83,7 @@ body
 
 .border {border: solid 1px #502108;}
 .border-right {border-right: solid 1px #502108;}
+.border-left {border-left: solid 1px #502108;}
 
 /* General typography */
 
@@ -197,3 +198,64 @@ header
 .uppercase {text-transform: uppercase;}
 
 .line-spacing {line-height: 40px;}
+
+/* Smaller than laptop */
+
+@media(max-width:768px) 
+{
+
+header {margin-bottom: 0rem !important ;}
+
+.mob-hide
+ {display: none;}
+
+    
+.hamburger 
+{
+margin: 1%;
+top: 24px;
+font-size: 2rem;
+}
+.mobile-menu {left: 400px;}  
+
+
+h5 {font-size: 1.1rem;}
+
+.bg-image 
+{
+background-size: cover;
+background-position: center;
+min-height: 20rem;
+}
+
+  
+@media(max-width:576px) 
+{
+    
+    .hamburger 
+      {
+      right: 23px;
+      top: 25px;
+      font-size: 2.2rem;
+     }
+  
+    .mobile-menu 
+      {
+      position: fixed;
+      top: 0;
+      right:0;
+      left:0px;
+      }
+
+h5 {font-size: 0.8rem;}
+
+.border {border: none;}
+
+.border-mob {border: solid 1px #502108;}
+.padded-mob {padding: 5%;}
+
+.bg-image {min-height: 14rem;}
+.padded-s {padding: 0px !important;}
+
+.margin-top {margin-top: 5%;}
+}

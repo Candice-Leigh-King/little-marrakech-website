@@ -1,0 +1,29 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+page_blocks: []
+_array_structures:
+  content-blocks:
+    values:
+      - label: Top Menu
+        icon: restaurant
+        value: 
+          _section-type: top-menu
+          food-image:
+          day: 
+          heading: 
+          description:
+          price: 
+      - label: Top Menu
+        icon: restaurant
+        value: 
+          _section-type: bottom-menu
+          food-image:
+          day: 
+          heading: 
+          description:
+          price: 
