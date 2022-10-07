@@ -27,3 +27,10 @@ _array_structures:
           heading: 
           description:
           price: 
+      - label: Hero
+        icon: star
+        value: 
+          _section-type: hero
+          hero-image:
+          heading: 
+          description:
