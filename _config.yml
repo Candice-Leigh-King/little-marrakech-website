@@ -18,6 +18,8 @@ _array_structures:
           heading: 
           description:
           price: 
+          button-text:
+          button-link:
       - label: Top Menu
         icon: restaurant
         value: 
@@ -27,6 +29,8 @@ _array_structures:
           heading: 
           description:
           price: 
+          button-text:
+          button-link:
       - label: Hero
         icon: star
         value: 
@@ -34,3 +38,18 @@ _array_structures:
           hero-image:
           heading: 
           description:
+      - label: Text Area
+        icon: star
+        value: 
+          _section-type: text-area
+          heading: 
+          title-1: 
+          text-area-1: 
+          title-2: 
+          text-area-2: 
+          title-3: 
+          text-area-3: 
+          title-4: 
+          text-area-4:
+          button-text: 
+          button-link:

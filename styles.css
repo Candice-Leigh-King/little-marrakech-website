@@ -76,6 +76,9 @@ body
 .light-bg     {  background-color: #EBEAE5; }
 .white-bg     {  background-color: #fff}
 .featured-bg  {  background: linear-gradient(323deg,#EBEAE5 4%,#DACCBD 53%);   }
+.orange-bg {background-color: #A74F28;}
+
+.white-text {color: white;}
 
 .banner
   {
@@ -93,6 +96,8 @@ body
 .border {border: solid 1px #502108;}
 .border-right {border-right: solid 1px #502108;}
 .border-left {border-left: solid 1px #502108;}
+
+.radius {border-radius: 100%;}
 
 /* General typography */
 
@@ -115,6 +120,7 @@ p, ul
 {
 margin-top: 0;  
 margin-bottom: 0.8rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -245,7 +251,7 @@ header
 @media(max-width:768px) 
 {
 
-  .desktop-hide {display: contents;}
+  
 
 header {margin-bottom: 0rem !important ;}
 
@@ -279,6 +285,7 @@ min-height: 20rem;
   
 @media(max-width:576px) 
 {
+  .desktop-hide {display: contents;}
     
     .hamburger 
       {
