@@ -99,6 +99,8 @@ body
 
 .radius {border-radius: 100%;}
 
+.bump-up {margin-top: -215px;}
+
 /* General typography */
 
 h1, h2, h3, h4, h5, h6 
@@ -245,6 +247,7 @@ header
 .shadow {box-shadow: 0 2px 6px -2px rgb(0 0 0 / 42%), 0 0px 5px -5px rgb(0 0 0 / 20%)}
 
 .desktop-hide {display: none;}
+.tablet-show {display: inline;}
 
 /* Smaller than laptop */
 
@@ -285,7 +288,9 @@ min-height: 20rem;
   
 @media(max-width:576px) 
 {
-  .desktop-hide {display: contents;}
+  .desktop-hide {display: inline-block;}
+
+  .tablet-show {display: none;}
     
     .hamburger 
       {
