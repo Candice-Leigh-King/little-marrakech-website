@@ -72,9 +72,9 @@
         <a href="/" class="logo-home center "> 
           <img src="{{site.data.general.basics.logo_image}}" alt="{{site.data.general.basics.logo-alt}}" /></a>
       </div>
-      <p class=" col-1-middle fixed hamburger-color hamburger padded" style="z-index: 100;"> ﹋<br>﹋<br>﹋
+      <p class=" col-1-middle fixed  hamburger padded" style="z-index: 100;"> ﹋<br>﹋<br>﹋
       </p>
-      <nav class="grid-middle navigation-background-color page-nav mobile-menu banner">
+      <nav class="grid-middle page-nav mobile-menu banner">
         <p class="cross exit right col-12"> ╳
         </p>
         <div class=" textarea-background-color radius-arch banner col-12 grid-middle">
@@ -93,6 +93,12 @@
         </div>
       </nav>
     </header>
+
+    <style>
+      :root {
+        --editor-panel-zindex: 90;
+      
+      }
    
 
     {{content}}
