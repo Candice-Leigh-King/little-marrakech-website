@@ -27,10 +27,10 @@ _array_structures:
           _section-type: bottom-menu
           content-block-link:
           food-image:
-          day: 
+          day_html: 
           heading: 
           description:
-          price_html: 
+          price: 
           button-text:
           button-link:
       - label: Hero
