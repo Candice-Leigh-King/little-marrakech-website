@@ -22,7 +22,7 @@ _array_structures:
           button-text:
           button-link:
       - label: Bottom Menu
-        icon: restaurant
+        icon: restaurant_menu
         value: 
           _section-type: bottom-menu
           content-block-link:
