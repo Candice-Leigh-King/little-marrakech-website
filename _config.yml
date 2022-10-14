@@ -13,6 +13,7 @@ _array_structures:
         icon: restaurant
         value: 
           _section-type: top-menu
+          content-block-link:
           food-image:
           day: 
           heading: 
@@ -20,10 +21,11 @@ _array_structures:
           price: 
           button-text:
           button-link:
-      - label: Top Menu
+      - label: Bottom Menu
         icon: restaurant
         value: 
           _section-type: bottom-menu
+          content-block-link:
           food-image:
           day: 
           heading: 
@@ -35,6 +37,7 @@ _array_structures:
         icon: star
         value: 
           _section-type: hero
+          content-block-link:
           hero-image:
           heading: 
           description:
@@ -42,6 +45,7 @@ _array_structures:
         icon: star
         value: 
           _section-type: text-area
+          content-block-link:
           heading: 
           title-1: 
           text-area-1: 
