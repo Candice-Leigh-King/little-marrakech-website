@@ -42,7 +42,7 @@ _array_structures:
           heading: 
           description:
       - label: Text Area
-        icon: star
+        icon: article
         value: 
           _section-type: text-area
           content-block-link:
