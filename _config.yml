@@ -41,6 +41,8 @@ _array_structures:
           hero-image:
           heading: 
           description:
+          button-text: 
+          button-link:
       - label: Text Area
         icon: article
         value: 
