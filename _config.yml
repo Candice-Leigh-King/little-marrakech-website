@@ -59,3 +59,8 @@ _array_structures:
           text-area-4:
           button-text: 
           button-link:
+      - label: Divider 
+        icon: image
+        value:
+          _section-type: divider
+          strip:
