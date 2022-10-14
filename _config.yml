@@ -30,7 +30,7 @@ _array_structures:
           day: 
           heading: 
           description:
-          price: 
+          price_html: 
           button-text:
           button-link:
       - label: Hero
