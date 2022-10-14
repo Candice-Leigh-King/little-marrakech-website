@@ -247,7 +247,7 @@ header
 .shadow {box-shadow: 0 2px 6px -2px rgb(0 0 0 / 42%), 0 0px 5px -5px rgb(0 0 0 / 20%)}
 
 .desktop-hide {display: none;}
-.tablet-show {display: inline;}
+.tablet-show {display: none;}
 
 /* Smaller than laptop */
 
@@ -260,6 +260,8 @@ header {margin-bottom: 0rem !important ;}
 
 .mob-hide
  {display: none;}
+
+.tablet-show {display: inline-block;}
 
     
 .hamburger 
@@ -321,7 +323,7 @@ h5 {font-size: 0.8rem;}
 
 .banner
   {
-  background-position: left;
+  background-position: center;
   }
 
 .cross { font-size: 1.3rem;}
